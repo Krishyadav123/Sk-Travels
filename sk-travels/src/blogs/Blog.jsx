@@ -116,7 +116,7 @@ const Blog = () => {
     <>
       <Navbar />
 
-      <section className="w-full bg-white px-4 py-10 md:px-8 md:py-36">
+      <section className="w-full bg-white px-4 py-24 md:px-8 md:py-36">
         <div className="mx-auto max-w-7xl">
           {/* Page Heading */}
           <div className="mb-8 text-center md:mb-10">

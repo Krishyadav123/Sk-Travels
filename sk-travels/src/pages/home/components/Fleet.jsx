@@ -13,7 +13,7 @@ import {
 } from "lucide-react";
 
 // 👉 Apna WhatsApp number (+ ke bina)
-const WHATSAPP_NUMBER = "919876543210";
+const WHATSAPP_NUMBER = "919755331189";
 
 
 const VEHICLES = [
@@ -21,7 +21,7 @@ const VEHICLES = [
     name: "Force Urbania",
     tagline: "Premium • Spacious • Comfortable",
     image:
-      "https://placehold.co/600x400/111827/facc15?text=Force+Urbania",
+      "https://res.cloudinary.com/dhf8eyjee/image/upload/v1792394550/168b051d-285a-42f1-87b4-6a9db2b09b45_b5lqwx.png",
     seats: "16 Seater",
     luggage: "Large Luggage",
     price: 32,
@@ -32,7 +32,7 @@ const VEHICLES = [
     name: "Force Traveller AC",
     tagline: "Spacious • Comfortable • Group Travel",
     image:
-      "https://placehold.co/600x400/e5e7eb/374151?text=Force+Traveller+AC",
+      "https://res.cloudinary.com/dhf8eyjee/image/upload/v1792394601/b9d10931-caf2-4da2-94bb-4b601375d928_x2uj4n.png",
     seats: "Group Travel",
     luggage: "Large Luggage",
     price: 28,
@@ -43,7 +43,7 @@ const VEHICLES = [
     name: "Innova",
     tagline: "Luxury • Comfortable • Reliable",
     image:
-      "https://placehold.co/600x400/e5e7eb/374151?text=Innova",
+      "https://res.cloudinary.com/dhf8eyjee/image/upload/v1792394641/5901e0d9-749a-4764-9934-818bcff41aec_xwpa0v.png",
     seats: "7 Seater",
     luggage: "Large Luggage",
     price: 18,
@@ -54,7 +54,7 @@ const VEHICLES = [
     name: "Swift Dzire AC",
     tagline: "Economical • Comfortable",
     image:
-      "https://placehold.co/600x400/e5e7eb/374151?text=Swift+Dzire+AC",
+      "https://res.cloudinary.com/dhf8eyjee/image/upload/v1792394738/a6e9d746-5bfc-450a-a8d1-6ad375c706c8_aifsr7.png",
     seats: "4 Seater",
     luggage: "Medium Luggage",
     price: 12,

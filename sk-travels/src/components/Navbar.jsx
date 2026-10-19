@@ -8,13 +8,13 @@ import {
 import { Link, useLocation } from "react-router-dom";
 import { Phone, Menu, X, ChevronRight } from "lucide-react";
 
-const PHONE_NUMBER = "+919876543210";
+const PHONE_NUMBER = "+919755331189";
 
 const NAV_LINKS = [
   { label: "Home", href: "/" },
   { label: "About", href: "/about" },
   { label: "Services", href: "/services" },
-  { label: "Gallery", href: "/gallery" },
+  // { label: "Gallery", href: "/gallery" },
   { label: "Blogs", href: "/blogs" },
   { label: "Contact", href: "/contact" },
 ];
@@ -28,7 +28,7 @@ function BookNow({ className = "", onClick }) {
       className={`inline-flex items-center justify-center gap-2 rounded-xl bg-yellow-400 px-4 py-3 text-sm font-bold text-black transition duration-300 hover:bg-yellow-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-yellow-400 focus-visible:ring-offset-2 focus-visible:ring-offset-black ${className}`}
     >
       <Phone size={17} />
-      1234567890
+      97553 31189
     </a>
   );
 }
@@ -93,7 +93,7 @@ export default function Navbar() {
               <img
                 src="https://res.cloudinary.com/dhf8eyjee/image/upload/v1792053142/Untitled_design_4_acgbj3.png"
                 alt="SK Tour and Travels"
-                className="h-14 w-auto rounded-lg"
+                className="h-10 md:h-14 w-auto rounded-md md:rounded-lg"
               />
             </Link>
 
@@ -139,7 +139,9 @@ export default function Navbar() {
 
             {/* Call button and mobile menu toggle */}
             <div className="flex shrink-0 items-center gap-2">
-              <BookNow className="hidden sm:inline-flex" />
+              <div className="hidden xl:block">
+                <BookNow />
+              </div>
 
               <button
                 type="button"

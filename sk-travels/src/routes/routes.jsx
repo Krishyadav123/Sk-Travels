@@ -17,6 +17,7 @@ import Blog7 from "../blogs/components/Blog7";
 import Blog8 from "../blogs/components/Blog8";
 import Blog9 from "../blogs/components/Blog9";
 import Blog10 from "../blogs/components/Blog10";
+import ContactUs from "../pages/contact/ContactUs";
 
 const AllRoutes = () => {
   return (
@@ -25,6 +26,8 @@ const AllRoutes = () => {
       <Route path="/" element={<Home />} />
       <Route path="/about" element={<About />} />
       <Route path="/services" element={<Services />} />
+
+      <Route path="/contact" element={<ContactUs />} />
 
       {/* Blog Listing */}
       <Route path="/blogs" element={<Blog />} />

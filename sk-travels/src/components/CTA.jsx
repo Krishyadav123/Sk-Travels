@@ -2,8 +2,8 @@ import { motion, MotionConfig } from "framer-motion";
 import { Phone, MessageCircle, ArrowRight, Check } from "lucide-react";
 
 // 👉 Apna number yahan daal dena (poori site ke CTA me yahi use hoga)
-const PHONE_NUMBER = "+919876543210"; // call ke liye (+ ke saath)
-const WHATSAPP_NUMBER = "919876543210"; // WhatsApp ke liye (+ ke bina)
+const PHONE_NUMBER = "+919755331189"; // call ke liye (+ ke saath)
+const WHATSAPP_NUMBER = "919755331189"; // WhatsApp ke liye (+ ke bina)
 
 const DEFAULT_HIGHLIGHTS = ["24/7 Support", "Transparent Pricing", "On-Time Pickup"];
 

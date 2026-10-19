@@ -2,35 +2,35 @@ import { motion, MotionConfig } from "framer-motion";
 import { MapPin, Car, ArrowRight, MessageCircle, Route } from "lucide-react";
 
 // 👉 Apna WhatsApp number (+ ke bina)
-const WHATSAPP_NUMBER = "919876543210";
+const WHATSAPP_NUMBER = "919755331189";
 
 // 👉 Images aur distance/time dummy hain, apne hisaab se badal lena
 const DESTINATIONS = [
   {
     name: "Mahakaleshwar",
     place: "Ujjain",
-    image: "https://placehold.co/600x450/78350f/facc15?text=Ujjain",
-    distance: "0 km",
+    image: "https://res.cloudinary.com/dhf8eyjee/image/upload/v1792395060/banner-image-68ba87ce38ad13957c02c0bf-86095738_qi3tl2.avif",
+    distance: "80 km",
     time: "~ 2-3 Hours",
   },
   {
     name: "Omkareshwar",
     place: "Madhya Pradesh",
-    image: "https://placehold.co/600x450/1e3a5f/facc15?text=Omkareshwar",
+    image: "https://res.cloudinary.com/dhf8eyjee/image/upload/v1792395187/127608564Omkareshwar_Temple_rtodec.jpg",
     distance: "140 km",
     time: "~ 2-3 Hours",
   },
   {
     name: "Maheshwar",
     place: "Madhya Pradesh",
-    image: "https://placehold.co/600x450/14532d/facc15?text=Maheshwar",
+    image: "https://res.cloudinary.com/dhf8eyjee/image/upload/v1792395225/Maheswar-Temple--scaled_iyia11.jpg",
     distance: "150 km",
     time: "~ 2-4 Hours",
   },
   {
     name: "Ram Mandir",
     place: "Ayodhya, Uttar Pradesh",
-    image: "https://placehold.co/600x450/7c2d12/facc15?text=Ayodhya",
+    image: "https://res.cloudinary.com/dhf8eyjee/image/upload/v1792395257/hero_idwct1.jpg",
     distance: "1000 km",
     time: "~ 18-20 Hours",
   },

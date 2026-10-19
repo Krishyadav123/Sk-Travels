@@ -14,9 +14,9 @@ import {
 } from "lucide-react";
 
 // 👉 Apna number yahan daal dena
-const PHONE_NUMBER = "+919876543210"; // call link ke liye (+ ke saath)
-const WHATSAPP_NUMBER = "919876543210"; // WhatsApp ke liye (+ ke bina)
-const PHONE_DISPLAY = "+91 98765 43210"; // screen par dikhane ke liye
+const PHONE_NUMBER = "+919755331189"; // call link ke liye (+ ke saath)
+const WHATSAPP_NUMBER = "919755331189"; // WhatsApp ke liye (+ ke bina)
+const PHONE_DISPLAY = "97553 31189"; // screen par dikhane ke liye
 
 const FEATURES = [
   { icon: MessageSquareText, label: "Quick Response" },

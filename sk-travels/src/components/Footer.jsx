@@ -2,8 +2,8 @@ import { motion, MotionConfig } from "framer-motion";
 import { ChevronRight, Phone, MapPin, Mail } from "lucide-react";
 
 // 👉 Apni details yahan daal dena
-const PHONE_NUMBER = "+919876543210"; // call link ke liye (+ ke saath)
-const PHONE_DISPLAY = "+91 98765 43210";
+const PHONE_NUMBER = "+919755331189"; // call link ke liye (+ ke saath)
+const PHONE_DISPLAY = "97553 31189";
 const EMAIL = "info@sktourandtravels.in";
 const ADDRESS = "Indore, Madhya Pradesh";
 

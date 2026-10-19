@@ -14,7 +14,7 @@ function App() {
     <div >
       {/* <Home/> */}
       <motion.a
-        href="https://wa.me/918982563088"
+        href="https://wa.me/919755331189"
         target="_blank"
         rel="noopener noreferrer"
         aria-label="Chat on WhatsApp"
@@ -59,7 +59,7 @@ function App() {
       </motion.a>
 
       <BrowserRouter>
-      
+      <ScrollToTop />
         <AllRoutes />
       </BrowserRouter>
       {/* <ScrollToTop /> */}
@@ -71,5 +71,4 @@ function App() {
 }
 
 export default App
-
 

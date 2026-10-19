@@ -5,7 +5,7 @@ import { Check, Phone, Car, Award } from "lucide-react";
 const ABOUT_IMAGE = "https://placehold.co/800x960/111827/facc15?text=About+Image";
 
 // 👉 Apna number yahan daal dena
-const PHONE_NUMBER = "+919876543210";
+const PHONE_NUMBER = "+919755331189";
 
 // 👉 Ye number dummy hai, apna asli experience daal dena
 const EXPERIENCE = { value: "5+", label: "Years of Experience" };
